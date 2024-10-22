@@ -127,7 +127,8 @@ apt-get install -y --no-install-recommends \
   valgrind \
   vim \
   zip \
-  zlib1g-dev
+  zlib1g-dev \
+  sshpass 
 apt-get clean
 rm -rf /var/lib/apt/lists/*
 EOF
